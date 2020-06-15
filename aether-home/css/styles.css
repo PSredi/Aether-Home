@@ -1,0 +1,60 @@
+@font-face{
+	src: url("fonts/lato-v16-latin-regular.woff2");
+	font-family: latoV16;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: latoV16
+}
+.container{
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+.menu ul{
+	justify-content: center;
+	display: flex;
+	margin: 20px;
+}
+.menu ul li{
+list-style: none;
+	margin: 0 20px;
+	color: aliceblue;
+	cursor: pointer;
+	opacity: 0.75;
+	font-size: 20px;
+	font-family: latoV16;
+	
+}.menu ul li:hover{
+	animation: fadeInFromNone 0.5s ease-out;
+	animation-fill-mode: forwards;
+	
+}
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0.75;
+    }
+
+    25% {
+        display: block;
+        opacity: 0.80;
+    }
+	
+	40%{
+		display: block;
+		opacity: 0.87;
+	}
+	
+	60% {
+        display: block;
+        opacity: 0.95;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
