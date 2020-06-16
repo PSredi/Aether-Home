@@ -13,11 +13,17 @@
 	background: #000;
 }
 .menu ul{
+	
+	animation: startUpFade 0.5s ease-in;
+	animation-fill-mode: forwards;
 	justify-content: center;
 	display: flex;
 	margin: 20px;
+	opacity: 0;
+	animation-delay: 2s;
 }
 .menu ul li{
+	
 list-style: none;
 	margin: 0 20px;
 	color: aliceblue;
@@ -26,10 +32,50 @@ list-style: none;
 	font-size: 20px;
 	font-family: latoV16;
 	
-}.menu ul li:hover{
+	
+}
+.ol h1{
+
+	animation: startUpFade1 0.5s ease-in;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	animation-delay: 2s;
+}
+.menu ul li:hover{
 	animation: fadeInFromNone 0.5s ease-out;
 	animation-fill-mode: forwards;
 	
+}
+.logo img{
+	animation: startUpFade2 2.3s ease-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes startUpFade{
+	0%{display: none; opacity: 0;}
+	25%{display: block; opacity: 0.15;}
+	50%{display: block; opacity: 0.35;}
+	75%{display: block; opacity: 0.55;}
+	100%{display: block; opacity: 0.75;}
+}
+
+@keyframes startUpFade1{
+	0%{display: none; opacity: 0;}
+	10%{display: block; opacity: 0.15;}
+	25%{display: block; opacity: 0.25;}
+	50%{display: block; opacity: 0.55;}
+	75%{display: block; opacity: 0.75;}
+	100%{display: block; opacity: 1;}
+}
+
+
+@keyframes startUpFade2{
+	0%{display: none; opacity: 0;}
+	10%{display: block; opacity: 0.10;}
+	25%{display: block; opacity: 0.20;}
+	50%{display: block; opacity: 0.40;}
+	75%{display: block; opacity: 0.60;}
+	100%{display: block; opacity: 1;}
 }
 @keyframes fadeInFromNone {
     0% {
