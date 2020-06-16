@@ -49,12 +49,32 @@ list-style: none;
 .logo img{
 	animation: startUpFade2 2.3s ease-out;
 	animation-fill-mode: forwards;
-}.em{
+}
+.em{
 	margin-right: 950px;
 	margin-left: 150px;
 }.paragraph{
 	font-size: 18px;
 	text-align: justify;
+}.ButtonContainer{
+	margin-top: 30px;
+	margin-left: 460px;
+}.button{
+	box-shadow: 0px 0px 0px 0px #db0012;
+	background-color:transparent;
+	border:1px solid #FFF;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFF;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 17px;
+	text-decoration:none;
+}.button:hover{
+	background-color:transparent;
+}.button:active{
+	position:relative;
+	top:1px;
 }
 @keyframes startUpFade{
 	0%{display: none; opacity: 0;}
