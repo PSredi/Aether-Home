@@ -41,7 +41,7 @@ list-style: none;
 	opacity: 0;
 	animation-delay: 2s;
 }.ae{
-	margin-top: 40px;
+	margin-top: 30px;
 	animation: startUpFade1 0.5s ease-in;
 	animation-fill-mode: forwards;
 	opacity: 0;
