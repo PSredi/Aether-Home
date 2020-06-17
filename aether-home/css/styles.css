@@ -40,6 +40,12 @@ list-style: none;
 	animation-fill-mode: forwards;
 	opacity: 0;
 	animation-delay: 2s;
+}.ae{
+	margin-top: 40px;
+	animation: startUpFade1 0.5s ease-in;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	animation-delay: 2s;
 }
 .menu ul li:hover{
 	animation: fadeInFromNone 0.5s ease-out;
@@ -89,7 +95,7 @@ list-style: none;
 }
 .steps{
 	display:inline-flex;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-right: 950px;
 	margin-left: 150px;
 	list-style: none;
@@ -98,6 +104,7 @@ list-style: none;
 	
 }.step1{
 	margin-bottom: 50px;
+	margin-left: 15px;
 	width: 400px;
 }.gp1{
 	text-align: left;
@@ -135,10 +142,19 @@ list-style: none;
 
 @keyframes startUpFade2{
 	0%{display: none; opacity: 0;}
+	5%{display: block; opacity: 0.05;}
 	10%{display: block; opacity: 0.10;}
+	15%{display: block; opacity: 0.15;}
 	25%{display: block; opacity: 0.20;}
+	30%{display: block; opacity: 0.25;}
+	35%{display: block; opacity: 0.30;}
+	40%{display: block; opacity: 0.35;}
 	50%{display: block; opacity: 0.40;}
+	60%{display: block; opacity: 0.50;}
+	65%{display: block; opacity: 0.55;}
 	75%{display: block; opacity: 0.60;}
+	85%{display: block; opacity: 0.80;}
+	95%{display: block; opacity: 0.90;}
 	100%{display: block; opacity: 1;}
 }
 @keyframes fadeInFromNone {
