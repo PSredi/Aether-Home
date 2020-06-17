@@ -51,9 +51,12 @@ list-style: none;
 	animation-fill-mode: forwards;
 }
 .em{
+	
+}.taglineContainer{
 	margin-right: 950px;
 	margin-left: 150px;
-}.paragraph{
+}
+.paragraph{
 	font-size: 18px;
 	text-align: justify;
 }.ButtonContainer{
@@ -75,6 +78,42 @@ list-style: none;
 }.button:active{
 	position:relative;
 	top:1px;
+}.gts{
+	margin-top: 500px;
+	
+}.gtsContainer{
+	display: inline-flex;
+	margin-top: 30px;
+	margin-right: 950px;
+	margin-left: 150px;
+}
+.steps{
+	display:inline-flex;
+	margin-top: 20px;
+	margin-right: 950px;
+	margin-left: 150px;
+	list-style: none;
+	font-family: latoV16;
+	font-size: 18px;
+	
+}.step1{
+	margin-bottom: 50px;
+	width: 400px;
+}.gp1{
+	text-align: left;
+}
+.step2{
+	margin-left: 100px;
+	margin-bottom: 50px;
+	width: 400px;
+}.gp2{
+	text-align: left;
+}.step3{
+	margin-left: 100px;
+	margin-bottom: 50px;
+	width: 400px;
+}.gp3{
+	text-align: left;
 }
 @keyframes startUpFade{
 	0%{display: none; opacity: 0;}
